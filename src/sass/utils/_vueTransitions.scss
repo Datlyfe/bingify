@@ -1,0 +1,16 @@
+.preview-move { transition: all 550ms  }
+  .preview-enter-active { transition: all 325ms  }
+  .preview-appear-enter-active { transition: all 300ms  }
+
+  // .preview-leave-active {
+  //   transition: all 1000ms;
+  //   position: absolute;
+  //   // z-index: 2;
+  // }
+
+  .preview-enter,
+  .preview-leave-to,
+  .preview-appear-enter {
+    opacity: 0;
+    transform: translate3d(0rem, -5rem, 0);
+  }

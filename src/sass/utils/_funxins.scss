@@ -1,0 +1,26 @@
+$easings:(
+default: cubic-bezier(.4, .25, .3, 1),
+in: cubic-bezier(.6, .1, .8, .7),
+out: cubic-bezier(.2, .3, .4, .9),
+in-out: cubic-bezier(.5, .15, .4, 1),
+bounce: cubic-bezier(.4, .25, .3, 1.4)
+);
+
+@function cb($fn: default) {
+@return map-get($easings, $fn);
+}
+
+@mixin imagePlaceholder() {
+	background-image: linear-gradient(
+		to bottom,
+		rgba(#162229, .75),
+		rgba(#064362, .75),
+		rgba(#6f868c, .75),
+		rgba(#2c2623, .75)
+	);
+}
+@mixin bgCover($_pos:center) {
+background-size: cover;
+background-repeat: no-repeat;
+background-position: $_pos;
+}
