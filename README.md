@@ -2,9 +2,9 @@
 This is a javascript project developed with VueJs.
 
 
-music Discovery app
+Discover new movies
 
-App is still in development
+App is still in development (80%)
 
 ## ScreenShot
 ![](./app.png)
