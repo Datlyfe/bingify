@@ -1,14 +1,32 @@
-# Bingify
+# Bingify 🍿
 This is a javascript project developed with VueJs.
-
 
 Discover new movies
 
-App is still in development (80%)
+## Getting Started 🚀
 
-## ScreenShot
-![](./app.png)
+- Clone the repo
+- Install the dependicies with ``` npm install```
+- Start the development server with ``` npm run dev ```
+ The App should be running on localhost port 8080
+
+## Preview 📸
+### https://bingify.netlify.com/
+<img src="./app.png" >
 
 
-### contact
-Email : MrBouaggadMoez@gmail.com
+ 
+## Support me 👊
+
+⭐ this repo if you like it.
+
+Buy me a cup of coffee ☕️:
+
+<a href="https://www.buymeacoffee.com/bq6EgoCp0" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+Thank you in advance 👍
+
+## Contact me 📧
+#### Email : mrbouaggadmoez@gmail.com
+#### Website : https://bouaggadmoez.netlify.com/
+
