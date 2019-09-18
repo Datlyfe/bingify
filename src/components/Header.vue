@@ -2,11 +2,19 @@
   <div class="header">
     <!-- SEARCH -->
     <div class="search">
-      <i @click="back" class="fa fa-chevron-left"></i>
-      <i class="fa fa-chevron-right"></i>
-      <i class="fa fa-search"></i>
+      <i @click="back" class="bx bx-chevron-left"></i>
+      <i class="bx bx-chevron-right"></i>
+      <i class="bx bx-search"></i>
       <!-- <form @submit="search"> -->
-      <input @keyup.enter="search" autocomplete="off" v-model="term" name="search" placeholder="Black Panther..." class="search__input" type="text">
+      <input
+        @keyup.enter="search"
+        autocomplete="off"
+        v-model="term"
+        name="search"
+        placeholder="Black Panther..."
+        class="search__input"
+        type="text"
+      />
       <!-- </form> -->
     </div>
   </div>
@@ -14,20 +22,19 @@
 
 <script>
 export default {
-  data(){
-    return{
-      term:''
-    }
+  data() {
+    return {
+      term: ""
+    };
   },
-  methods:{
-    back(){
+  methods: {
+    back() {
       this.$router.go(-1);
     },
-    search(e){
+    search(e) {
       e.preventDefault();
-      this.$router.push({name:'search',params:{term:this.term}})
+      this.$router.push({ name: "search", params: { term: this.term } });
     }
   }
-}
+};
 </script>
-

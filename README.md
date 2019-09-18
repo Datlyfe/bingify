@@ -1,4 +1,5 @@
 # Bingify 🍿
+
 This is a javascript project developed with VueJs.
 
 Discover new movies
@@ -6,16 +7,16 @@ Discover new movies
 ## Getting Started 🚀
 
 - Clone the repo
-- Install the dependicies with ``` npm install```
-- Start the development server with ``` npm run dev ```
- The App should be running on localhost port 8080
+- Install the dependicies with `npm install`
+- Start the development server with `npm run dev`
+  The App should be running on localhost port 8080
 
 ## Preview 📸
+
 ### https://bingify.netlify.com/
+
 <img src="./app.png" >
 
-
- 
 ## Support me 👊
 
 ⭐ this repo if you like it.
@@ -27,6 +28,7 @@ Buy me a cup of coffee ☕️:
 Thank you in advance 👍
 
 ## Contact me 📧
-#### Email : mrbouaggadmoez@gmail.com
-#### Website : https://bouaggadmoez.netlify.com/
 
+#### Email : mrbouaggadmoez@gmail.com
+
+#### Website : https://bouaggadmoez.netlify.com/

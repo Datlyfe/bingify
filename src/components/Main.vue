@@ -1,26 +1,19 @@
 <template>
   <div class="main">
     <!-- HEADER -->
-    <Header/>
+    <Header />
     <!-- ROUTER TAKES OVER -->
     <router-view></router-view>
-    
-  </div> 
+  </div>
 </template>
 
-
 <script>
-import Header from './Header';
-import Home from './Home';
-
+import Header from "./Header";
 
 export default {
-  name:'app',
-  components:{
-    Header,
-    Home
+  name: "app",
+  components: {
+    Header
   }
-}
+};
 </script>
-
- 
