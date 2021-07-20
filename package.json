@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "axios": "~0.18.1",
-    "boxicons": "^2.0.3",
+    "boxicons": "^2.0.8",
     "memory-cache": "^0.2.0",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3",
